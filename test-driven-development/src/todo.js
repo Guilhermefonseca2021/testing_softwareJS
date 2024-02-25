@@ -1,6 +1,5 @@
 const uuid = require("uuid").v4;
-
-exports = class Todo {
+class Todo {
   constructor({ text, when }) {
     this.text = text;
     this.when = when;
@@ -13,3 +12,5 @@ exports = class Todo {
     return !!this.text && !isNaN(this.when.valueOf())
   }
 };
+
+module.exports = Todo
