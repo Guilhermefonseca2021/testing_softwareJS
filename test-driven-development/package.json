@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^4.4.1",
+    "lokijs": "1.5",
     "mocha": "^8.4.0",
     "nyc": "^15.1.0",
     "sinon": "^9.2.4"
